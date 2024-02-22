@@ -21,6 +21,12 @@ form, header{
     flex-direction: column;
 }
 
+form input, form button {
+    display: block;
+    width: 300px;
+    padding: 8px;
+}
+
 input {
     display: flex;
     justify-content: center;
@@ -38,7 +44,6 @@ label {
 
 #button {
     background-color: blue;
-    width: 14%;
     cursor: pointer;
     color: white;
     font-weight: bold;
@@ -74,12 +79,12 @@ table {
     border-radius: 7px;
     border-color: aliceblue;
     background-color: blue;
-    border-radius: 7px;
 }
 
 th, td {
     color: white;
 }
+
 
 
 
